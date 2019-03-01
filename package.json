@@ -1,0 +1,42 @@
+{
+  "name": "parcel_vue",
+  "version": "1.0.0",
+  "description": "simple starter pack for Vue + Parcel",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint . --ext .js,.vue",
+    "start": "npm run lint && npx parcel index.html",
+    "build": "npm run lint && npx parcel build index.html",
+    "test": "npx jest"
+  },
+  "author": "Chandru",
+  "email": "chandru89new@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0",
+    "vue": "^2.6.7",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@vue/component-compiler-utils": "^2.6.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.14.1",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^24.1.0",
+    "vue-jest": "^3.0.3",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.vue$": "<rootDir>/node_modules/vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
+  }
+}
