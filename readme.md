@@ -15,9 +15,9 @@ Required:
 - node (>6.0)
 
 ```
-git clone https://github.com/chandru89new/parcel_vue.git
-cd parcel_vue
-npm install
+> git clone https://github.com/chandru89new/parcel_vue.git
+> cd parcel_vue
+> npm install
 ```
 
 ## Customization
