@@ -14,7 +14,7 @@
   "email": "chandru89new@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.3",
     "vue": "^2.6.7",
     "vue-hot-reload-api": "^2.3.3",
     "vue-router": "^3.0.2",
